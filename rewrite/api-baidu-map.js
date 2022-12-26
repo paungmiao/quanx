@@ -1,5 +1,5 @@
 const body = JSON.parse($response.body)
 console.log(body)
-body.result.location.lng=6666666666
-body.result.location.lat=6666666666666
+body.content.point.x="100.000000"
+body.content.point.y="30.000000"
 $done({body:JSON.stringify(body)});
